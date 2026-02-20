@@ -47,5 +47,5 @@ __SpecialCharactersActualText__
 
 SpecialCharactersActualText shows how to treat special characters that might not be read correctly by a screenreader.
 
-Here, ∜ / fourth root. 
+Here, ⅓ / a third. 
 
