@@ -4,8 +4,10 @@ package com.poc;
 // import com.htmlFromHtmlFile.HtmlFromHtmlFile;
 // import com.pdfUaWithImageAndTitle.PdfUaWithImageAndTitle;
 // import com.minimalPdfUAFormWithTooltips.MinimalPdfUAFormWithTooltips;
-
+// import com.specialCharactersActualText.SpecialCharactersActualText;
+import com.createPDFUATable.CreatePdfUATable;
 import com.specialCharactersActualText.SpecialCharactersActualText;
+
 import java.io.IOException;
 
 public class App {
@@ -13,6 +15,11 @@ public class App {
         // TaggedHtmlXmpPfdUa.main(args);
         // PdfUaWithImageAndTitle.main(args);
         // SpecialCharactersActualText.main(args);
-        SpecialCharactersActualText.main(args);
+        try {
+            SpecialCharactersActualText.main(args);
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
 }

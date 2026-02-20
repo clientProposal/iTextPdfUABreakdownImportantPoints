@@ -27,8 +27,8 @@ public class SpecialCharactersActualText {
         Document document = new Document(pdfDoc);
         document.setFont(font); 
         Paragraph p = new Paragraph();
-        Text t = new Text("⅓");
-        t.getAccessibilityProperties().setActualText("a third");
+        Text t = new Text("\u2153");
+        t.getAccessibilityProperties().setActualText("a-third");
         p.add(t);
         document.add(p);
         document.close();

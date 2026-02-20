@@ -2,7 +2,6 @@ __PDF/UA__
 
 Demonstration of some important points of PDF/UA, how compliance with these points in the standard can be achieved.
 
-
 __PdfUaWithImageAndTitle__
 
 [PdfUaWithImageAndTitle](src/main/java/com/pdfUaWithImageAndTitle/PdfUaWithImageAndTitle.java)
@@ -40,6 +39,13 @@ Demonstrates how to deal with decorative elements which do not have any relevanc
 Such elements should be tagged as artifacts.
 
 Example shown: border.
+
+
+__CreatePdfUATable__
+
+[CreatePdfUATable](src/main/java/com/createPDFUATable/CreatePdfUATable.java)
+
+CreatePdfUATable demonstrates how to create an accessible table with our API.
 
 __SpecialCharactersActualText__
 
